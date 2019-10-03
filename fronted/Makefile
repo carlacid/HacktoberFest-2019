@@ -12,15 +12,15 @@ all:
 help:
 	@egrep "^# target:" [Mm]akefile
 
-# target: install -- install vue-cli
+# target: install -- Install vue-cli
 cli:
 	npm install -g @vue/cli
 
-# target: create -- create new vue project inside a default directory
+# target: create -- Create new vue project inside a default directory or you can select your own directory
 create:
 	mkdir frontend && cd frontend
 	vue create .
 
-# target: server -- run server
+# target: server -- Run server
 server:
 	npm run serve
