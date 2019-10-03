@@ -12,10 +12,10 @@ all:
 help:
 	@egrep "^# target:" [Mm]akefile
 
-# target: virtual -- install virtual environment
+# target: virtual -- Install virtual environment
 virtual:
 	pipenv shell
 
-# target: requirements -- install requirements.txt
+# target: requirements -- Install requirements.txt
 requirements:
 	pip install -r requirements.txt
