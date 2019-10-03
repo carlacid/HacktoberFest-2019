@@ -15,10 +15,11 @@ The objetive for this repository is make a simple **CRUD** website based on Bike
 
 2. Clone your forked repository to your local machine.
 
-3. You can install the requirments using the comand:
+3. You can install the requirements using the comand:
     
     **make help**
 
+    You can find the Makefile inside each directory (backend, fronted)
     It provides a full options to install the project.
 
 ## Git commands
@@ -42,3 +43,6 @@ Wait for your shirt.
 
 * If your are using images, better use free images. You can find a lot of free images [here](https://pixabay.com/).
 * For styles, we gonna use bootstrap-vue. You can read the full documentation [here](https://bootstrap-vue.js.org/docs/).
+* You can comment your code, telling what you did and why..
+
+## Happy Coding!
